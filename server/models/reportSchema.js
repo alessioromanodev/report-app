@@ -5,17 +5,17 @@ const reportSchema = new Schema(
   {
     userName: {
       type: String,
-      required: true,
+      required: false,
       trim: true,
     },
     type: {
       type: String,
-      required: true,
+      required: false,
       trim: true,
     },
     title: {
       type: String,
-      required: true,
+      required: false,
       trim: true,
     },
     description: {
